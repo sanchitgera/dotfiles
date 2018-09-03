@@ -1,0 +1,29 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'tpope/vim-surround'
+Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'kien/ctrlp.vim'
+Plugin 'valloric/YouCompleteMe'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'bling/vim-bufferline'
+Plugin 'qpkorr/vim-bufkill'
+Plugin 'rking/ag.vim'
+Plugin 'w0rp/ale'
+Plugin 'ludovicchabant/vim-gutentags'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'morhetz/gruvbox'
+call vundle#end()            " required
+
+filetype plugin indent on    " required
+
+
