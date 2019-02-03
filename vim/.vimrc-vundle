@@ -22,6 +22,9 @@ Plugin 'w0rp/ale'
 Plugin 'ludovicchabant/vim-gutentags'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'morhetz/gruvbox'
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'rakr/vim-one'
 call vundle#end()            " required
 
 filetype plugin indent on    " required
